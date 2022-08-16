@@ -132,18 +132,7 @@ ul.task-list{list-style: none;}
 
 
 
-<p>Sometimes <code>quarto publish gh-pages</code> hangs while creating the worktree.</p>
-<p>For me the following worked (suggested by <a href="https://opensource.com/article/21/4/git-worktree">this tutorial</a> and the <a href="https://github.com/quarto-dev/quarto-cli/blob/046f7fc0228e4480b4d9af57f92b5538f8a27e5b/src/publish/gh-pages/gh-pages.ts">commands <code>quarto publish</code> uses</a> ).</p>
-<p>First notice the extra directory in your git repository, called <code>2054a64</code> or similar.</p>
-<p>Then do:</p>
-<pre><code>cd 2054a64 
-git add -Af . 
-git commit --allow-empty -m "Semi-manual deploy"
-git remote -v
-git push --force origin HEAD:gh-pages
-cd ..
-git worktree remove 2054a64 
-git worktree prune</code></pre>
+<p>Empty</p>
 
 
 
