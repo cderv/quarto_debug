@@ -2,25 +2,19 @@
   {
     "listing": "/all_posts_categorized.html",
     "items": [
-      "/posts/pandas/generate_fake_dates_in_pandas.html",
-      "/posts/pandas/skipping_arbitrary_empty_rows.html",
-      "/posts/pandas/various_pandas_resources.html",
-      "/posts/pandas/working_with_datetimes.html",
-      "/posts/other_tech/table_like_li_css.html",
-      "/posts/other_tech/useful_git.html",
-      "/posts/other_tech/ejs.html"
+      "/posts/tips_quarto/ojs_define_series.html",
+      "/posts/tips_quarto/quarto_worktree.html",
+      "/posts/tips_quarto/quarto_howto.html",
+      "/posts/tips_quarto/quarto_links.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
-      "/posts/other_tech/ejs.html",
-      "/posts/other_tech/table_like_li_css.html",
-      "/posts/pandas/skipping_arbitrary_empty_rows.html",
-      "/posts/pandas/various_pandas_resources.html",
-      "/posts/pandas/generate_fake_dates_in_pandas.html",
-      "/posts/other_tech/useful_git.html",
-      "/posts/pandas/working_with_datetimes.html"
+      "/posts/tips_quarto/quarto_worktree.html",
+      "/posts/tips_quarto/quarto_links.html",
+      "/posts/tips_quarto/ojs_define_series.html",
+      "/posts/tips_quarto/quarto_howto.html"
     ]
   }
 ]

@@ -2,42 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://paniterka.github.io/quarto_debug/about.html</loc>
-    <lastmod>2022-08-16T18:37:18.458Z</lastmod>
+    <lastmod>2022-08-16T18:40:00.336Z</lastmod>
   </url>
   <url>
     <loc>https://paniterka.github.io/quarto_debug/all_posts_categorized.html</loc>
-    <lastmod>2022-08-16T18:37:20.654Z</lastmod>
+    <lastmod>2022-08-16T18:40:02.436Z</lastmod>
   </url>
   <url>
     <loc>https://paniterka.github.io/quarto_debug/index.html</loc>
-    <lastmod>2022-08-16T18:37:22.691Z</lastmod>
+    <lastmod>2022-08-16T18:40:04.450Z</lastmod>
   </url>
   <url>
-    <loc>https://paniterka.github.io/quarto_debug/posts/other_tech/ejs.html</loc>
-    <lastmod>2022-08-16T18:37:24.362Z</lastmod>
+    <loc>https://paniterka.github.io/quarto_debug/posts/tips_quarto/ojs_define_series.html</loc>
+    <lastmod>2022-08-16T18:40:14.754Z</lastmod>
   </url>
   <url>
-    <loc>https://paniterka.github.io/quarto_debug/posts/other_tech/table_like_li_css.html</loc>
-    <lastmod>2022-08-16T18:37:25.591Z</lastmod>
+    <loc>https://paniterka.github.io/quarto_debug/posts/tips_quarto/quarto_howto.html</loc>
+    <lastmod>2022-08-16T18:40:23.466Z</lastmod>
   </url>
   <url>
-    <loc>https://paniterka.github.io/quarto_debug/posts/other_tech/useful_git.html</loc>
-    <lastmod>2022-08-16T18:37:26.796Z</lastmod>
+    <loc>https://paniterka.github.io/quarto_debug/posts/tips_quarto/quarto_links.html</loc>
+    <lastmod>2022-08-16T18:40:25.420Z</lastmod>
   </url>
   <url>
-    <loc>https://paniterka.github.io/quarto_debug/posts/pandas/generate_fake_dates_in_pandas.html</loc>
-    <lastmod>2022-08-16T18:37:28.050Z</lastmod>
-  </url>
-  <url>
-    <loc>https://paniterka.github.io/quarto_debug/posts/pandas/skipping_arbitrary_empty_rows.html</loc>
-    <lastmod>2022-08-16T18:37:29.279Z</lastmod>
-  </url>
-  <url>
-    <loc>https://paniterka.github.io/quarto_debug/posts/pandas/various_pandas_resources.html</loc>
-    <lastmod>2022-08-16T18:37:30.479Z</lastmod>
-  </url>
-  <url>
-    <loc>https://paniterka.github.io/quarto_debug/posts/pandas/working_with_datetimes.html</loc>
-    <lastmod>2022-08-16T18:37:31.687Z</lastmod>
+    <loc>https://paniterka.github.io/quarto_debug/posts/tips_quarto/quarto_worktree.html</loc>
+    <lastmod>2022-08-16T18:40:26.987Z</lastmod>
   </url>
 </urlset>
