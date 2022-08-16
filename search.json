@@ -18,14 +18,14 @@
     "href": "all_posts_categorized.html#quarto",
     "title": "All posts",
     "section": "Quarto",
-    "text": "Quarto\n\n  \n    \n      \n        \n          \n            Coupling Python and Observable using ojs_define() \n            \n              (Jul 30, 2022)\n            \n          \n           quarto \n        \n      \n      \n        \n          \n            Fix the `quarto publish gh-pages` error on windows \n            \n              (Aug 8, 2022)\n            \n          \n           quarto, git \n        \n      \n      \n        \n          \n            Quarto how-to \n            \n              (Jul 29, 2022)\n            \n          \n           cheatsheet \n        \n      \n      \n        \n          \n            Various resources about quarto \n            \n              (Aug 1, 2022)\n            \n          \n           quarto \n        \n      \n    \n  \n\nNo matching items"
+    "text": "Quarto\n\n  \n    \n      \n        \n          \n            Coupling Python and Observable using ojs_define() \n            \n              (Jul 30, 2022)\n            \n          \n           quarto \n        \n      \n      \n        \n          \n            Fix the `quarto publish gh-pages` error on windows \n            \n              (Aug 8, 2022)\n            \n          \n           quarto, git \n        \n      \n      \n        \n          \n            Quarto how-to \n            \n              (Jul 29, 2022)\n            \n          \n           cheatsheet \n        \n      \n    \n  \n\nNo matching items"
   },
   {
     "objectID": "all_posts_categorized.html#other-tech-topics",
     "href": "all_posts_categorized.html#other-tech-topics",
     "title": "All posts",
     "section": "Other tech topics",
-    "text": "Other tech topics\n\n  \n    \n    \n  \n\nNo matching items"
+    "text": "Other tech topics\n\n  \n    \n      \n        \n          \n            Useful git stuff \n            \n              (Jul 26, 2022)\n            \n          \n           cheatsheet, git \n        \n      \n    \n  \n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -39,7 +39,28 @@
     "href": "index.html#latest-posts",
     "title": "\nFiguring things outone post at a time\n",
     "section": "Latest posts",
-    "text": "Latest posts\n\n  \n    \n      \n        \n          \n            Fix the `quarto publish gh-pages` error on windows \n            \n              (Aug 8, 2022)\n            \n          \n           quarto, git \n        \n      \n      \n        \n          \n            Skipping empty csv rows \n            \n              (Aug 4, 2022)\n            \n          \n           cheatsheet, pandas \n        \n      \n      \n        \n          \n            Various Pandas resources \n            \n              (Aug 4, 2022)\n            \n          \n           pandas \n        \n      \n      \n        \n          \n            Various resources about quarto \n            \n              (Aug 1, 2022)\n            \n          \n           quarto \n        \n      \n      \n        \n          \n            Generating random days between two dates \n            \n              (Jul 30, 2022)\n            \n          \n           cheatsheet, pandas \n        \n      \n    \n  \n\nNo matching items\n\n\n\nBrowse all posts…"
+    "text": "Latest posts\n\n  \n    \n      \n        \n          \n            Fix the `quarto publish gh-pages` error on windows \n            \n              (Aug 8, 2022)\n            \n          \n           quarto, git \n        \n      \n      \n        \n          \n            Skipping empty csv rows \n            \n              (Aug 4, 2022)\n            \n          \n           cheatsheet, pandas \n        \n      \n      \n        \n          \n            Various Pandas resources \n            \n              (Aug 4, 2022)\n            \n          \n           pandas \n        \n      \n      \n        \n          \n            Generating random days between two dates \n            \n              (Jul 30, 2022)\n            \n          \n           cheatsheet, pandas \n        \n      \n      \n        \n          \n            Coupling Python and Observable using ojs_define() \n            \n              (Jul 30, 2022)\n            \n          \n           quarto \n        \n      \n    \n  \n\nNo matching items\n\n\n\nBrowse all posts…"
+  },
+  {
+    "objectID": "posts/other_tech/useful_git.html",
+    "href": "posts/other_tech/useful_git.html",
+    "title": "Useful git stuff",
+    "section": "",
+    "text": "Because every now and then there is this thing you need to do with git, but because you do it not so often, you have to google it for like 30 sec."
+  },
+  {
+    "objectID": "posts/other_tech/useful_git.html#branches",
+    "href": "posts/other_tech/useful_git.html#branches",
+    "title": "Useful git stuff",
+    "section": "Branches",
+    "text": "Branches\nTo create a new completely empty branch:\ngit switch --orphan <new branch>\ngit commit --allow-empty -m \"Initial commit on orphan branch\"\ngit push -u origin <new branch>\nsrc Article on branches\nTo pull a new branch from the server without touching the current branch: git fetch <remote_name> <branch_name> which in most cases is src\ngit fetch origin <branch_name>"
+  },
+  {
+    "objectID": "posts/other_tech/useful_git.html#unstaging-files",
+    "href": "posts/other_tech/useful_git.html#unstaging-files",
+    "title": "Useful git stuff",
+    "section": "Unstaging files",
+    "text": "Unstaging files\nhttps://sethrobertson.github.io/GitFixUm/fixup.html\n\nadded but not committed\n\n\ncommitted but not pushed\nhttps://stackoverflow.com/a/15321456\ngit reset --soft HEAD^ \ngit reset HEAD path/to/unwanted_file\ngit commit -c ORIG_HEAD \nThe last command will recommit with the original commit message"
   },
   {
     "objectID": "posts/pandas/generate_fake_dates_in_pandas.html",
@@ -110,13 +131,6 @@
     "title": "Quarto how-to",
     "section": "Merging Python and Observable",
     "text": "Merging Python and Observable\nHow to merge various engines in one notebook: https://gist.github.com/hrbrmstr/23355194d1964688596553a0e6a0050a\nThe secret is to declare the language in code such as:\n\nprint('Hello python')\n# bla = {'x_values': [0,1,2,3,4], 'y_values': [10,11,12,10,9]}\nbla0 = {'x_values': [0,1,2,3,4], 'y_values': [10,11,12,10,9]}\nbla = []\nfor i in range(len(bla0['x_values'])):\n  tmp = {}\n  for k in bla0.keys():\n    tmp[k] = bla0[k][i]\n  bla.append(tmp)\nojs_define(bla=bla)\nprint(bla)\n\nHello python\n\n\nDeprecationWarning:\n\nImporting display from IPython.core.display is deprecated since IPython 7.14, please import from IPython display\n\n\n\n\n\n\n[{'x_values': 0, 'y_values': 10}, {'x_values': 1, 'y_values': 11}, {'x_values': 2, 'y_values': 12}, {'x_values': 3, 'y_values': 10}, {'x_values': 4, 'y_values': 9}]\n\n\n\nbla\n\n\n\n\n\n\n\nconsole.log('hello observable js')\n\n\n\n\n\n\n\nPlot.dot(bla, {x: \"x_values\", y: \"y_values\"}).plot()"
-  },
-  {
-    "objectID": "posts/tips_quarto/quarto_links.html",
-    "href": "posts/tips_quarto/quarto_links.html",
-    "title": "Various resources about quarto",
-    "section": "",
-    "text": "Porting a distill blog to quarto\nThe ultimate guide to starting a Quarto blog\nHow to style your Quarto blog without knowing a lot of HTML/CSS\nGet started with Quarto: RConf2022\nAwesome Quarto"
   },
   {
     "objectID": "posts/tips_quarto/quarto_worktree.html",
