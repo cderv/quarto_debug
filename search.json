@@ -11,7 +11,7 @@
     "href": "all_posts_categorized.html",
     "title": "All posts",
     "section": "",
-    "text": "Mostly pandas and matplotlib tricks.\n\n  \n    \n    \n  \n\nNo matching items"
+    "text": "Mostly pandas and matplotlib tricks.\n\n  \n    \n      \n        \n          \n            Generating random days between two dates \n            \n              (Jul 30, 2022)\n            \n          \n           cheatsheet, pandas \n        \n      \n      \n        \n          \n            Skipping empty csv rows \n            \n              (Aug 4, 2022)\n            \n          \n           cheatsheet, pandas \n        \n      \n      \n        \n          \n            Various Pandas resources \n            \n              (Aug 4, 2022)\n            \n          \n           pandas \n        \n      \n      \n        \n          \n            Working with datetimes \n            \n              (Jul 26, 2022)\n            \n          \n           cheatsheet, pandas \n        \n      \n    \n  \n\nNo matching items"
   },
   {
     "objectID": "all_posts_categorized.html#quarto",
@@ -25,7 +25,7 @@
     "href": "all_posts_categorized.html#other-tech-topics",
     "title": "All posts",
     "section": "Other tech topics",
-    "text": "Other tech topics\n\n  \n    \n    \n  \n\nNo matching items"
+    "text": "Other tech topics\n\n\n  \n    \n      \n        \n          \n            Style a list element to look like a table \n            \n              (Aug 5, 2022)\n            \n          \n           css \n        \n      \n      \n        \n          \n            Useful git stuff \n            \n              (Jul 26, 2022)\n            \n          \n           cheatsheet, git \n        \n      \n      \n        \n          \n            Writing EJS templates \n            \n              (Aug 5, 2022)\n            \n          \n           ejs, quarto, javascript \n        \n      \n    \n  \n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -39,6 +39,90 @@
     "href": "index.html#latest-posts",
     "title": "\nFiguring things outone post at a time\n",
     "section": "Latest posts",
-    "text": "Latest posts\n\n  \n    \n    \n  \n\nNo matching items\n\n\n\nBrowse all posts…"
+    "text": "Latest posts\n\n\n  \n    \n      \n        \n          \n            Writing EJS templates \n            \n              (Aug 5, 2022)\n            \n          \n           ejs, quarto, javascript \n        \n      \n      \n        \n          \n            Style a list element to look like a table \n            \n              (Aug 5, 2022)\n            \n          \n           css \n        \n      \n      \n        \n          \n            Skipping empty csv rows \n            \n              (Aug 4, 2022)\n            \n          \n           cheatsheet, pandas \n        \n      \n      \n        \n          \n            Various Pandas resources \n            \n              (Aug 4, 2022)\n            \n          \n           pandas \n        \n      \n      \n        \n          \n            Generating random days between two dates \n            \n              (Jul 30, 2022)\n            \n          \n           cheatsheet, pandas \n        \n      \n    \n  \n\nNo matching items\n\n\n\nBrowse all posts…"
+  },
+  {
+    "objectID": "posts/other_tech/ejs.html",
+    "href": "posts/other_tech/ejs.html",
+    "title": "Writing EJS templates",
+    "section": "",
+    "text": "<%= String(item.categories).replace(/,/g, ', ') %>"
+  },
+  {
+    "objectID": "posts/other_tech/table_like_li_css.html",
+    "href": "posts/other_tech/table_like_li_css.html",
+    "title": "Style a list element to look like a table",
+    "section": "",
+    "text": "The CSS part\n.custom_listing li .li-contents-container{\n    display: flex; \n    align-items: center;\n}\n\n.custom_listing .left-container {\n    width: 70%;\n    margin-right: auto;\n}\n\n.custom_listing .right-container {\n    max-width: 25%;\n    margin-left: auto; \n    text-align: right;\n}\n\n\nRemark\nHaving a parent li-contents-container is crucial to be able to display a bullet point or another symbol for each <li> item.\nsrc"
+  },
+  {
+    "objectID": "posts/other_tech/useful_git.html",
+    "href": "posts/other_tech/useful_git.html",
+    "title": "Useful git stuff",
+    "section": "",
+    "text": "Because every now and then there is this thing you need to do with git, but because you do it not so often, you have to google it for like 30 sec."
+  },
+  {
+    "objectID": "posts/other_tech/useful_git.html#branches",
+    "href": "posts/other_tech/useful_git.html#branches",
+    "title": "Useful git stuff",
+    "section": "Branches",
+    "text": "Branches\nTo create a new completely empty branch:\ngit switch --orphan <new branch>\ngit commit --allow-empty -m \"Initial commit on orphan branch\"\ngit push -u origin <new branch>\nsrc Article on branches\nTo pull a new branch from the server without touching the current branch: git fetch <remote_name> <branch_name> which in most cases is src\ngit fetch origin <branch_name>"
+  },
+  {
+    "objectID": "posts/other_tech/useful_git.html#unstaging-files",
+    "href": "posts/other_tech/useful_git.html#unstaging-files",
+    "title": "Useful git stuff",
+    "section": "Unstaging files",
+    "text": "Unstaging files\nhttps://sethrobertson.github.io/GitFixUm/fixup.html\n\nadded but not committed\n\n\ncommitted but not pushed\nhttps://stackoverflow.com/a/15321456\ngit reset --soft HEAD^ \ngit reset HEAD path/to/unwanted_file\ngit commit -c ORIG_HEAD \nThe last command will recommit with the original commit message"
+  },
+  {
+    "objectID": "posts/pandas/generate_fake_dates_in_pandas.html",
+    "href": "posts/pandas/generate_fake_dates_in_pandas.html",
+    "title": "Generating random days between two dates",
+    "section": "",
+    "text": "import pandas as pd \nimport numpy as np"
+  },
+  {
+    "objectID": "posts/pandas/generate_fake_dates_in_pandas.html#generate-all-days-between-two-dates",
+    "href": "posts/pandas/generate_fake_dates_in_pandas.html#generate-all-days-between-two-dates",
+    "title": "Generating random days between two dates",
+    "section": "Generate all days between two dates:",
+    "text": "Generate all days between two dates:\n\npd.date_range(start_date, end_date, freq='D')\n\nDatetimeIndex(['2010-03-23', '2010-03-24', '2010-03-25', '2010-03-26',\n               '2010-03-27', '2010-03-28', '2010-03-29', '2010-03-30',\n               '2010-03-31', '2010-04-01',\n               ...\n               '2013-07-10', '2013-07-11', '2013-07-12', '2013-07-13',\n               '2013-07-14', '2013-07-15', '2013-07-16', '2013-07-17',\n               '2013-07-18', '2013-07-19'],\n              dtype='datetime64[ns]', length=1215, freq='D')"
+  },
+  {
+    "objectID": "posts/pandas/generate_fake_dates_in_pandas.html#generate-n-dates-equally-spaced",
+    "href": "posts/pandas/generate_fake_dates_in_pandas.html#generate-n-dates-equally-spaced",
+    "title": "Generating random days between two dates",
+    "section": "Generate N dates equally spaced:",
+    "text": "Generate N dates equally spaced:\n\nN = 4\n\npd.date_range(start_date, end_date, periods=N).normalize()\n\nDatetimeIndex(['2010-03-23', '2011-05-01', '2012-06-09', '2013-07-19'], dtype='datetime64[ns]', freq=None)"
+  },
+  {
+    "objectID": "posts/pandas/generate_fake_dates_in_pandas.html#generate-a-random-subsample-of-n-dates-between-the-dates",
+    "href": "posts/pandas/generate_fake_dates_in_pandas.html#generate-a-random-subsample-of-n-dates-between-the-dates",
+    "title": "Generating random days between two dates",
+    "section": "Generate a random subsample of N dates between the dates",
+    "text": "Generate a random subsample of N dates between the dates\nMethod 1 & 2 require to generate the whole date range first, then sample from it. Method 3 & 4 leverage numpy generators and construct dates out of generated numbers. Method 2 doesn’t require explicitly importing numpy. Method 4 gives you the times for free as well and seems the fastest according to the benchmark in the original SO thread\n\nMethod 1:\nnp.random.choice src\n\n# old syntax\n\nN = 4\n\npd.Series(\n    np.random.choice(\n        pd.date_range(start_date, end_date), \n        N, \n        replace=True # replace=True -> 1 value can appear multiple times\n    )\n) \n\n0   2010-12-07\n1   2010-05-20\n2   2011-12-17\n3   2013-02-24\ndtype: datetime64[ns]\n\n\n\n# new syntax\n\nrng = np.random.default_rng()\n\nN = 4\n\npd.Series(\n    rng.choice(\n        pd.date_range(start_date, end_date), \n        N, \n        replace=True # replace=True -> 1 value can appear multiple times\n    )\n) \n\n0   2013-03-16\n1   2010-11-18\n2   2012-05-27\n3   2011-03-24\ndtype: datetime64[ns]\n\n\n\n\nMethod 2:\npd.Series.sample()\n\nN = 4\n\npd.Series(\n    pd.date_range(start_date, end_date, freq='D')\n)\\\n.sample(N, replace=True)\\\n.reset_index(drop=True)\n\n0   2012-05-05\n1   2012-10-20\n2   2013-02-04\n3   2011-01-03\ndtype: datetime64[ns]\n\n\n\n\nMethod 3:\npd.to_timedelta\n\n# old syntax\n\nN = 4\n\nmax_days = (pd.to_datetime(end_date) - pd.to_datetime(start_date)).days\ndelta_days = pd.to_timedelta(\n    np.random.randint(0, max_days+1, N), \n    unit='D')\n\npd.to_datetime(start_date) + delta_days\n\nDatetimeIndex(['2013-05-10', '2011-07-19', '2011-05-14', '2013-01-30'], dtype='datetime64[ns]', freq=None)\n\n\n\n# new syntax\n\nrng = np.random.default_rng()\n\nN = 4\n\nmax_days = (pd.to_datetime(end_date) - pd.to_datetime(start_date)).days\ndelta_days = pd.to_timedelta(\n    rng.integers(0, max_days, size=N, endpoint=True), \n    unit='D')\n\npd.to_datetime(start_date) + delta_days\n\nDatetimeIndex(['2013-02-17', '2012-02-21', '2011-04-13', '2013-02-20'], dtype='datetime64[ns]', freq=None)\n\n\n\n\nMethod 4:\nunix timestamps src\n\n# old syntax\n\nN = 4\n\nstart_u = pd.to_datetime(start_date).value//int(1e9)\nend_u = pd.to_datetime(end_date).value//int(1e9)\npd.to_datetime(np.random.randint(start_u, end_u, N), unit='s').normalize()\n\nDatetimeIndex(['2010-07-15', '2011-05-11', '2010-10-30', '2010-05-19'], dtype='datetime64[ns]', freq=None)\n\n\n\n# new syntax\n\nrng = np.random.default_rng()\n\nN = 4\n\nstart_u = pd.to_datetime(start_date).value//int(1e9)\nend_u = pd.to_datetime(end_date).value//int(1e9)\npd.to_datetime(rng.integers(start_u, end_u, N, endpoint=True), unit='s').normalize()\n\nDatetimeIndex(['2011-03-22', '2011-08-23', '2012-12-26', '2010-08-05'], dtype='datetime64[ns]', freq=None)"
+  },
+  {
+    "objectID": "posts/pandas/skipping_arbitrary_empty_rows.html",
+    "href": "posts/pandas/skipping_arbitrary_empty_rows.html",
+    "title": "Skipping empty csv rows",
+    "section": "",
+    "text": "Comment line 1 \nComment line 2 \nComment line 3 \n\ncol1, col2, col3 \n10, 12, 13\n21, 20, 22\nPandas accepts also file objects as an input, so you can travel through the lines until you find a separating line (or another condition) and then proceed with pd.read_csv:\nimport pandas as pd\n\nf = open(\"data.csv\")\nwhile f.readline() != '\\n':\n    pass\n\ndf = pd.read_csv(f, header=None)\nf.close()\nAs suggested in src"
+  },
+  {
+    "objectID": "posts/pandas/various_pandas_resources.html",
+    "href": "posts/pandas/various_pandas_resources.html",
+    "title": "Various Pandas resources",
+    "section": "",
+    "text": "Data manipulation R-Python conversion guide\nRPY2 github and docs"
+  },
+  {
+    "objectID": "posts/pandas/working_with_datetimes.html",
+    "href": "posts/pandas/working_with_datetimes.html",
+    "title": "Working with datetimes",
+    "section": "",
+    "text": "import pandas as pd\n\n\n\n\ns = pd.Series(pd.date_range(\"20130101\", periods=4, freq='H'))\ns\n\n0   2013-01-01 00:00:00\n1   2013-01-01 01:00:00\n2   2013-01-01 02:00:00\n3   2013-01-01 03:00:00\ndtype: datetime64[ns]\n\n\nKeep just the date:\n\ns.dt.date\n\n0    2013-01-01\n1    2013-01-01\n2    2013-01-01\n3    2013-01-01\ndtype: object\n\n\nKeep just the date as datetime object:\n\ns.dt.date.astype('datetime64')\n\n0   2013-01-01\n1   2013-01-01\n2   2013-01-01\n3   2013-01-01\ndtype: datetime64[ns]\n\n\nKeep just the date by resetting the timestamp:\n\ns.dt.normalize()\n\n0   2013-01-01\n1   2013-01-01\n2   2013-01-01\n3   2013-01-01\ndtype: datetime64[ns]\n\n\nKeep the date with a particular formatting:\n\ns.dt.strftime(\"%Y/%m/%d\")\n\n0    2013/01/01\n1    2013/01/01\n2    2013/01/01\n3    2013/01/01\ndtype: object\n\n\nLinks:\n- source\n- .dt docs"
   }
 ]

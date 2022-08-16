@@ -93,9 +93,9 @@ ul.task-list{list-style: none;}
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-freeze","listing-title-block-banner","listing-title","listing-date","listing-categories","listing-draft","listing-path","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-format"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -121,9 +121,9 @@ ul.task-list{list-style: none;}
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-freeze","listing-title-block-banner","listing-title","listing-date","listing-format","listing-categories","listing-path","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -210,7 +210,7 @@ ul.task-list{list-style: none;}
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="cheatsheet">cheatsheet <span class="quarto-category-count">(4)</span></div><div class="category" data-category="css">css <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ejs">ejs <span class="quarto-category-count">(1)</span></div><div class="category" data-category="git">git <span class="quarto-category-count">(1)</span></div><div class="category" data-category="javascript">javascript <span class="quarto-category-count">(1)</span></div><div class="category" data-category="pandas">pandas <span class="quarto-category-count">(4)</span></div><div class="category" data-category="quarto">quarto <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-body" id="quarto-document-content">
 
@@ -223,6 +223,50 @@ ul.task-list{list-style: none;}
 <div id="listing-python_listing" class="quarto-listing quarto-listing-container-custom">
   <div class="custom_listing">
     <ul class="list">
+      <li data-index="0" data-categories="cheatsheet,pandas" data-listing-date-sort="1659132000000" data-listing-file-modified-sort="1659992027465" data-listing-reading-time-sort="0.45">
+        <span class="li-contents-container">
+          <span class="title-container">
+            <a href="./posts/pandas/generate_fake_dates_in_pandas.html" class="listing-title">Generating random days between two dates</a> 
+            <span class="detail">
+              <span class="listing-date">(Jul 30, 2022)</span>
+            </span>
+          </span>
+          <span class="categories"> cheatsheet, pandas </span>
+        </span>
+      </li>
+      <li data-index="1" data-categories="cheatsheet,pandas" data-listing-date-sort="1659564000000" data-listing-file-modified-sort="1659992027466" data-listing-reading-time-sort="0.44">
+        <span class="li-contents-container">
+          <span class="title-container">
+            <a href="./posts/pandas/skipping_arbitrary_empty_rows.html" class="listing-title">Skipping empty csv rows</a> 
+            <span class="detail">
+              <span class="listing-date">(Aug 4, 2022)</span>
+            </span>
+          </span>
+          <span class="categories"> cheatsheet, pandas </span>
+        </span>
+      </li>
+      <li data-index="2" data-categories="pandas" data-listing-date-sort="1659564000000" data-listing-file-modified-sort="1659992027468" data-listing-reading-time-sort="0.05">
+        <span class="li-contents-container">
+          <span class="title-container">
+            <a href="./posts/pandas/various_pandas_resources.html" class="listing-title">Various Pandas resources</a> 
+            <span class="detail">
+              <span class="listing-date">(Aug 4, 2022)</span>
+            </span>
+          </span>
+          <span class="categories"> pandas </span>
+        </span>
+      </li>
+      <li data-index="3" data-categories="cheatsheet,pandas" data-listing-date-sort="1658786400000" data-listing-file-modified-sort="1659992027469" data-listing-reading-time-sort="0.21">
+        <span class="li-contents-container">
+          <span class="title-container">
+            <a href="./posts/pandas/working_with_datetimes.html" class="listing-title">Working with datetimes</a> 
+            <span class="detail">
+              <span class="listing-date">(Jul 26, 2022)</span>
+            </span>
+          </span>
+          <span class="categories"> cheatsheet, pandas </span>
+        </span>
+      </li>
     </ul>
   </div>
 <div class="listing-no-matching d-none">
@@ -245,8 +289,42 @@ No matching items
 <section id="other-tech-topics" class="level2">
 <h2 class="anchored" data-anchor-id="other-tech-topics">Other tech topics</h2>
 <div id="listing-other_tech_listing" class="quarto-listing quarto-listing-container-custom">
+
   <div class="custom_listing">
     <ul class="list">
+      <li data-index="0" data-categories="css" data-listing-date-sort="1659650400000" data-listing-file-modified-sort="1659992027463" data-listing-reading-time-sort="0.775">
+        <span class="li-contents-container">
+          <span class="title-container">
+            <a href="./posts/other_tech/table_like_li_css.html" class="listing-title">Style a list element to look like a table</a> 
+            <span class="detail">
+              <span class="listing-date">(Aug 5, 2022)</span>
+            </span>
+          </span>
+          <span class="categories"> css </span>
+        </span>
+      </li>
+      <li data-index="1" data-categories="cheatsheet,git" data-listing-date-sort="1658786400000" data-listing-file-modified-sort="1660126484564" data-listing-reading-time-sort="0.605">
+        <span class="li-contents-container">
+          <span class="title-container">
+            <a href="./posts/other_tech/useful_git.html" class="listing-title">Useful git stuff</a> 
+            <span class="detail">
+              <span class="listing-date">(Jul 26, 2022)</span>
+            </span>
+          </span>
+          <span class="categories"> cheatsheet, git </span>
+        </span>
+      </li>
+      <li data-index="2" data-categories="ejs,quarto,javascript" data-listing-date-sort="1659650400000" data-listing-file-modified-sort="1659992027462" data-listing-reading-time-sort="0.25">
+        <span class="li-contents-container">
+          <span class="title-container">
+            <a href="./posts/other_tech/ejs.html" class="listing-title">Writing EJS templates</a> 
+            <span class="detail">
+              <span class="listing-date">(Aug 5, 2022)</span>
+            </span>
+          </span>
+          <span class="categories"> ejs, quarto, javascript </span>
+        </span>
+      </li>
     </ul>
   </div>
 <div class="listing-no-matching d-none">
