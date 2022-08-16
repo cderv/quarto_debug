@@ -1,14 +1,37 @@
 ---
-title: "quarto_debug"
+title: "<div class=\"main-title\">Figuring things out<br>one post at a time</div>"
 listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
-page-layout: full
-title-block-banner: true
+  - id: latest_posts
+    contents: posts
+    sort: "date desc"
+    template: listing_customstyle.ejs
+    fields: [date, title]
+    # image-height: 100px
+    sort-ui: false
+    filter-ui: false
+    categories: false
+    max-items: 5
+page-layout: article
+title-block-banner: 1811433_adj.jpg
+toc: false
+toc-location: body
 ---
 
+:::{.column-page}
+:::
+
+
+Welcome! 
+
+At this point this blog is mostly just a collection of code snippets and tips for visualizing data with Python. 
+
+
+## Latest posts
+
+::: {#latest_posts}
+:::
+
+<div class="view_all">[Browse all posts...](all_posts_categorized.qmd)</div>
+
+<!-- ## Tutorials and projects  -->
 

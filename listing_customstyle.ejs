@@ -1,0 +1,23 @@
+```{=html}
+
+  <div class="custom_listing">
+    
+    <ul class="list">
+    <% for (const item of items) { %>
+      <li <%= metadataAttrs(item) %> >
+        <span class="li-contents-container">
+          <span class="title-container">
+            <a href="<%- item.path %>" class="listing-title"><%= item.title %></a> 
+            <span class="detail">
+              <span class="listing-date">(<%= item.date %>)</span>
+            </span>
+          </span>
+          <span class="categories" class="listing-categories"> <%= String(item.categories).replace(/,/g, ', ') %> </span>
+        </span>
+      </li>
+    <% } %>
+    </ul>
+  </div>
+
+
+```
