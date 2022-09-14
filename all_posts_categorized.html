@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.37">
+<meta name="generator" content="quarto-99.9.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,10 +11,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 </style>
 
 
@@ -152,9 +157,11 @@ ul.task-list{list-style: none;}
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="./index.html">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Teresa Kubacka’s Blog</span>
-  </a>
+    </a>
+  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -198,7 +205,7 @@ ul.task-list{list-style: none;}
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc">
+    <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
@@ -209,7 +216,7 @@ ul.task-list{list-style: none;}
 </nav>
 </nav>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(10)</span></div><div class="category" data-category="cheatsheet">cheatsheet <span class="quarto-category-count">(7)</span></div><div class="category" data-category="git">git <span class="quarto-category-count">(4)</span></div><div class="category" data-category="pandas">pandas <span class="quarto-category-count">(4)</span></div><div class="category" data-category="quarto">quarto <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-body" id="quarto-document-content">
@@ -223,7 +230,7 @@ ul.task-list{list-style: none;}
 <div id="listing-python_listing" class="quarto-listing quarto-listing-container-custom">
   <div class="custom_listing">
     <ul class="list">
-      <li data-index="0" data-categories="cheatsheet,pandas" data-listing-date-sort="1659132000000" data-listing-file-modified-sort="1660678495773" data-listing-reading-time-sort="0.01">
+      <li data-index="0" data-categories="cheatsheet,pandas" data-listing-date-sort="1659132000000" data-listing-file-modified-sort="1663161998685" data-listing-reading-time-sort="0.01">
         <span class="li-contents-container">
           <span class="title-container">
             <a href="./posts/pandas/generate_fake_dates_in_pandas.html" class="listing-title">Generating random days between two dates</a> 
@@ -234,7 +241,7 @@ ul.task-list{list-style: none;}
           <span class="categories"> cheatsheet, pandas </span>
         </span>
       </li>
-      <li data-index="1" data-categories="cheatsheet,pandas" data-listing-date-sort="1659564000000" data-listing-file-modified-sort="1660678539346" data-listing-reading-time-sort="0.005">
+      <li data-index="1" data-categories="cheatsheet,pandas" data-listing-date-sort="1659564000000" data-listing-file-modified-sort="1663161998686" data-listing-reading-time-sort="0.005">
         <span class="li-contents-container">
           <span class="title-container">
             <a href="./posts/pandas/skipping_arbitrary_empty_rows.html" class="listing-title">Skipping empty csv rows</a> 
@@ -245,7 +252,7 @@ ul.task-list{list-style: none;}
           <span class="categories"> cheatsheet, pandas </span>
         </span>
       </li>
-      <li data-index="2" data-categories="pandas" data-listing-date-sort="1659564000000" data-listing-file-modified-sort="1660678560552" data-listing-reading-time-sort="0.005">
+      <li data-index="2" data-categories="pandas" data-listing-date-sort="1659564000000" data-listing-file-modified-sort="1663161998686" data-listing-reading-time-sort="0.005">
         <span class="li-contents-container">
           <span class="title-container">
             <a href="./posts/pandas/various_pandas_resources.html" class="listing-title">Various Pandas resources</a> 
@@ -256,7 +263,7 @@ ul.task-list{list-style: none;}
           <span class="categories"> pandas </span>
         </span>
       </li>
-      <li data-index="3" data-categories="cheatsheet,pandas" data-listing-date-sort="1658786400000" data-listing-file-modified-sort="1660678551504" data-listing-reading-time-sort="0.005">
+      <li data-index="3" data-categories="cheatsheet,pandas" data-listing-date-sort="1658786400000" data-listing-file-modified-sort="1663161998686" data-listing-reading-time-sort="0.005">
         <span class="li-contents-container">
           <span class="title-container">
             <a href="./posts/pandas/working_with_datetimes.html" class="listing-title">Working with datetimes</a> 
@@ -279,7 +286,7 @@ No matching items
 <div id="listing-quarto_listing" class="quarto-listing quarto-listing-container-custom">
   <div class="custom_listing">
     <ul class="list">
-      <li data-index="0" data-categories="quarto" data-listing-date-sort="1659132000000" data-listing-file-modified-sort="1660680931473" data-listing-reading-time-sort="0.005">
+      <li data-index="0" data-categories="quarto" data-listing-date-sort="1659132000000" data-listing-file-modified-sort="1663162091487" data-listing-reading-time-sort="0.005">
         <span class="li-contents-container">
           <span class="title-container">
             <a href="./posts/tips_quarto/ojs_define_series.html" class="listing-title">Coupling Python and Observable using ojs_define()</a> 
@@ -290,7 +297,7 @@ No matching items
           <span class="categories"> quarto </span>
         </span>
       </li>
-      <li data-index="1" data-categories="quarto,git" data-listing-date-sort="1659909600000" data-listing-file-modified-sort="1660678596811" data-listing-reading-time-sort="0.005">
+      <li data-index="1" data-categories="quarto,git" data-listing-date-sort="1659909600000" data-listing-file-modified-sort="1663161998688" data-listing-reading-time-sort="0.005">
         <span class="li-contents-container">
           <span class="title-container">
             <a href="./posts/tips_quarto/quarto_worktree.html" class="listing-title">Fix the `quarto publish gh-pages` error on windows</a> 
@@ -301,7 +308,7 @@ No matching items
           <span class="categories"> quarto, git </span>
         </span>
       </li>
-      <li data-index="2" data-categories="cheatsheet" data-listing-date-sort="1659045600000" data-listing-file-modified-sort="1660678589620" data-listing-reading-time-sort="0.005">
+      <li data-index="2" data-categories="cheatsheet" data-listing-date-sort="1659045600000" data-listing-file-modified-sort="1663161998687" data-listing-reading-time-sort="0.005">
         <span class="li-contents-container">
           <span class="title-container">
             <a href="./posts/tips_quarto/quarto_howto.html" class="listing-title">Quarto how-to</a> 
@@ -324,7 +331,7 @@ No matching items
 <div id="listing-other_tech_listing" class="quarto-listing quarto-listing-container-custom">
   <div class="custom_listing">
     <ul class="list">
-      <li data-index="0" data-categories="cheatsheet,git" data-listing-date-sort="1658786400000" data-listing-file-modified-sort="1660680584832" data-listing-reading-time-sort="0.01">
+      <li data-index="0" data-categories="cheatsheet,git" data-listing-date-sort="1658786400000" data-listing-file-modified-sort="1663161998684" data-listing-reading-time-sort="0.01">
         <span class="li-contents-container">
           <span class="title-container">
             <a href="./posts/other_tech/empty.html" class="listing-title">Empty</a> 
@@ -335,7 +342,7 @@ No matching items
           <span class="categories"> cheatsheet, git </span>
         </span>
       </li>
-      <li data-index="1" data-categories="cheatsheet,git" data-listing-date-sort="1658786400000" data-listing-file-modified-sort="1660678224069" data-listing-reading-time-sort="0.01">
+      <li data-index="1" data-categories="cheatsheet,git" data-listing-date-sort="1658786400000" data-listing-file-modified-sort="1663161998684" data-listing-reading-time-sort="0.01">
         <span class="li-contents-container">
           <span class="title-container">
             <a href="./posts/other_tech/empty2.html" class="listing-title">Empty</a> 
@@ -346,7 +353,7 @@ No matching items
           <span class="categories"> cheatsheet, git </span>
         </span>
       </li>
-      <li data-index="2" data-categories="cheatsheet,git" data-listing-date-sort="1658786400000" data-listing-file-modified-sort="1660678996741" data-listing-reading-time-sort="0.005">
+      <li data-index="2" data-categories="cheatsheet,git" data-listing-date-sort="1658786400000" data-listing-file-modified-sort="1663161998685" data-listing-reading-time-sort="0.005">
         <span class="li-contents-container">
           <span class="title-container">
             <a href="./posts/other_tech/useful_git.html" class="listing-title">Useful git stuff</a> 
@@ -438,7 +445,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
