@@ -2,66 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://cderv.github.io/quarto_debug/about.html</loc>
-    <lastmod>2022-09-14T13:40:28.366Z</lastmod>
+    <lastmod>2022-09-14T13:44:29.562Z</lastmod>
   </url>
   <url>
     <loc>https://cderv.github.io/quarto_debug/all_posts_categorized.html</loc>
-    <lastmod>2022-09-14T13:40:29.478Z</lastmod>
+    <lastmod>2022-09-14T13:44:30.080Z</lastmod>
   </url>
   <url>
     <loc>https://cderv.github.io/quarto_debug/index.html</loc>
-    <lastmod>2022-09-14T13:40:29.918Z</lastmod>
+    <lastmod>2022-09-14T13:44:30.538Z</lastmod>
   </url>
   <url>
     <loc>https://cderv.github.io/quarto_debug/posts/other_tech/empty.html</loc>
-    <lastmod>2022-09-14T13:40:30.319Z</lastmod>
+    <lastmod>2022-09-14T13:44:30.923Z</lastmod>
   </url>
   <url>
     <loc>https://cderv.github.io/quarto_debug/posts/other_tech/empty2.html</loc>
-    <lastmod>2022-09-14T13:40:30.717Z</lastmod>
+    <lastmod>2022-09-14T13:44:31.302Z</lastmod>
   </url>
   <url>
     <loc>https://cderv.github.io/quarto_debug/posts/other_tech/empty3.html</loc>
-    <lastmod>2022-09-14T13:40:31.127Z</lastmod>
+    <lastmod>2022-09-14T13:44:31.668Z</lastmod>
   </url>
   <url>
     <loc>https://cderv.github.io/quarto_debug/posts/other_tech/empty4.html</loc>
-    <lastmod>2022-09-14T13:40:31.525Z</lastmod>
+    <lastmod>2022-09-14T13:44:32.030Z</lastmod>
   </url>
   <url>
     <loc>https://cderv.github.io/quarto_debug/posts/other_tech/empty5.html</loc>
-    <lastmod>2022-09-14T13:40:31.919Z</lastmod>
+    <lastmod>2022-09-14T13:44:32.393Z</lastmod>
   </url>
   <url>
     <loc>https://cderv.github.io/quarto_debug/posts/other_tech/useful_git.html</loc>
-    <lastmod>2022-09-14T13:40:32.317Z</lastmod>
+    <lastmod>2022-09-14T13:44:32.776Z</lastmod>
   </url>
   <url>
     <loc>https://cderv.github.io/quarto_debug/posts/pandas/generate_fake_dates_in_pandas.html</loc>
-    <lastmod>2022-09-14T13:40:32.726Z</lastmod>
+    <lastmod>2022-09-14T13:44:33.149Z</lastmod>
   </url>
   <url>
     <loc>https://cderv.github.io/quarto_debug/posts/pandas/skipping_arbitrary_empty_rows.html</loc>
-    <lastmod>2022-09-14T13:40:33.120Z</lastmod>
+    <lastmod>2022-09-14T13:44:33.553Z</lastmod>
   </url>
   <url>
     <loc>https://cderv.github.io/quarto_debug/posts/pandas/various_pandas_resources.html</loc>
-    <lastmod>2022-09-14T13:40:33.537Z</lastmod>
+    <lastmod>2022-09-14T13:44:33.953Z</lastmod>
   </url>
   <url>
     <loc>https://cderv.github.io/quarto_debug/posts/pandas/working_with_datetimes.html</loc>
-    <lastmod>2022-09-14T13:40:33.950Z</lastmod>
+    <lastmod>2022-09-14T13:44:34.370Z</lastmod>
   </url>
   <url>
     <loc>https://cderv.github.io/quarto_debug/posts/tips_quarto/ojs_define_series.html</loc>
-    <lastmod>2022-09-14T13:40:38.095Z</lastmod>
+    <lastmod>2022-09-14T13:44:35.374Z</lastmod>
   </url>
   <url>
     <loc>https://cderv.github.io/quarto_debug/posts/tips_quarto/quarto_howto.html</loc>
-    <lastmod>2022-09-14T13:40:38.722Z</lastmod>
+    <lastmod>2022-09-14T13:44:35.967Z</lastmod>
   </url>
   <url>
     <loc>https://cderv.github.io/quarto_debug/posts/tips_quarto/quarto_worktree.html</loc>
-    <lastmod>2022-09-14T13:40:39.108Z</lastmod>
+    <lastmod>2022-09-14T13:44:36.395Z</lastmod>
   </url>
 </urlset>
