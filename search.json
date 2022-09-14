@@ -95,7 +95,7 @@
     "href": "posts/tips_quarto/ojs_define_series.html",
     "title": "Coupling Python and Observable using ojs_define()",
     "section": "",
-    "text": "Empty"
+    "text": "See src and this Issue\n\nimport pandas as pd \nmy_variable = pd.Series([0,1,2,3])\nojs_define(my_variable = pd.DataFrame(my_variable)) # this works\nojs_define(my_variable2 = my_variable.tolist()) # this works\n# ojs_define(my_variable = my_variable) # this doesn't\n\n\n\n\n\n\n\n\nmy_variable"
   },
   {
     "objectID": "posts/tips_quarto/quarto_howto.html",
