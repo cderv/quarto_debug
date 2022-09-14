@@ -25,7 +25,7 @@
     "href": "all_posts_categorized.html#other-tech-topics",
     "title": "All posts",
     "section": "Other tech topics",
-    "text": "Other tech topics\n\n  \n    \n      \n        \n          \n            Empty \n            \n              (Jul 26, 2022)\n            \n          \n           cheatsheet, git \n        \n      \n      \n        \n          \n            Empty \n            \n              (Jul 26, 2022)\n            \n          \n           cheatsheet, git \n        \n      \n      \n        \n          \n            Useful git stuff \n            \n              (Jul 26, 2022)\n            \n          \n           cheatsheet, git \n        \n      \n    \n  \n\nNo matching items"
+    "text": "Other tech topics\n\n  \n    \n      \n        \n          \n            Empty \n            \n              (Jul 26, 2022)\n            \n          \n           cheatsheet, git \n        \n      \n      \n        \n          \n            Empty \n            \n              (Jul 26, 2022)\n            \n          \n           cheatsheet, git \n        \n      \n      \n        \n          \n            Empty \n            \n              (Jul 26, 2022)\n            \n          \n           cheatsheet, git \n        \n      \n      \n        \n          \n            Empty \n            \n              (Jul 26, 2022)\n            \n          \n           cheatsheet, git \n        \n      \n      \n        \n          \n            Empty \n            \n              (Jul 26, 2022)\n            \n          \n           cheatsheet, git \n        \n      \n      \n        \n          \n            Useful git stuff \n            \n              (Jul 26, 2022)\n            \n          \n           cheatsheet, git \n        \n      \n    \n  \n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -51,6 +51,27 @@
   {
     "objectID": "posts/other_tech/empty2.html",
     "href": "posts/other_tech/empty2.html",
+    "title": "Empty",
+    "section": "",
+    "text": "Blablabla"
+  },
+  {
+    "objectID": "posts/other_tech/empty3.html",
+    "href": "posts/other_tech/empty3.html",
+    "title": "Empty",
+    "section": "",
+    "text": "Blablabla"
+  },
+  {
+    "objectID": "posts/other_tech/empty4.html",
+    "href": "posts/other_tech/empty4.html",
+    "title": "Empty",
+    "section": "",
+    "text": "Blablabla"
+  },
+  {
+    "objectID": "posts/other_tech/empty5.html",
+    "href": "posts/other_tech/empty5.html",
     "title": "Empty",
     "section": "",
     "text": "Blablabla"
@@ -95,7 +116,7 @@
     "href": "posts/tips_quarto/ojs_define_series.html",
     "title": "Coupling Python and Observable using ojs_define()",
     "section": "",
-    "text": "See src and this Issue\n\nimport pandas as pd \nmy_variable = pd.Series([0,1,2,3])\nojs_define(my_variable = pd.DataFrame(my_variable)) # this works\nojs_define(my_variable2 = my_variable.tolist()) # this works\n# ojs_define(my_variable = my_variable) # this doesn't\n\n\n\n\n\n\n\n\nmy_variable"
+    "text": "Empty"
   },
   {
     "objectID": "posts/tips_quarto/quarto_howto.html",
